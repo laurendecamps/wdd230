@@ -86,13 +86,12 @@ footer p {
     margin-bottom: 5px;
 }
 
-@media (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
     nav ul li {
         margin: 5px 0;
+    }
+    img {
+        max-width: 25p%;
+        max-height: 15%;
+        float: left
     }
 }
